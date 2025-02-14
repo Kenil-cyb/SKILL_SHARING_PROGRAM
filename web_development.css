@@ -1,16 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Graphic Design Skills</title>
-    <link rel="stylesheet" href="graphic_design.css">
-    <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            animation: fadeIn 2s ease;
         }
 
         header {
@@ -54,25 +45,12 @@
         .content h2 {
             text-align: center;
             margin-bottom: 20px;
-            animation: fadeIn 2s ease;
         }
 
         .content p {
             text-align: center;
             margin-bottom: 20px;
             color: #555;
-            animation: fadeIn 2s ease;
-        }
-
-        .content ul {
-            list-style-type: square;
-            padding-left: 20px;
-            animation: slideIn 1.5s ease;
-        }
-
-        .content ul li {
-            margin-bottom: 10px;
-            animation: fadeIn 2s ease;
         }
 
         footer {
@@ -94,35 +72,3 @@
             from { transform: translateY(20px); opacity: 0; }
             to { transform: translateY(0); opacity: 1; }
         }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Skill Sharing Platform</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="listings.html">Listings</a></li> 
-                <li><a href="courses.html">Courses</a></li>               
-                <li><a href="add_skill.html">Add Skill</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="content">
-            <h2>Graphic Design</h2>
-            <p>Unleash your creativity and explore the fascinating world of graphic design. Learn from experienced designers about:</p>
-            <ul>
-                <li>Design Principles</li>
-                <li>Logo Creation</li>
-                <li>Brand Identity</li>
-                <li>Illustrations</li>
-                <li>UI/UX Design</li>
-            </ul>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 Skill Sharing Platform. All rights reserved.</p>
-    </footer>
-</body>
-</html>
