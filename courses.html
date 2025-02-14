@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New and Important Courses</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>New and Important Courses</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="listings.html">Listings</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="add_skill.html">Add Skill</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="course-list intro">
+      <h2>Explore Our Featured Courses</h2>
+      <p>Stay ahead with the latest skills and knowledge. Browse through these carefully curated courses:</p>
+      <ul class="course-list-items">
+        <li>
+          <h3>Cyber Security Essentials:</h3> 
+          Protect digital assets with advanced security measures, risk analysis techniques, and practical strategies for network protection.
+        </li>
+        <li>
+          <h3>Artificial Intelligence and Machine Learning:</h3> 
+          Dive into the world of intelligent algorithms, neural networks, and predictive analytics to solve real-world problems.
+        </li>
+        <li>
+          <h3>Metatronics and Robotics:</h3> 
+          Gain hands-on experience with designing, programming, and deploying robotic systems for automation and industry applications.
+        </li>
+        <li>
+          <h3>Data Science and Big Data Analytics:</h3> 
+          Master data processing, visualization techniques, and statistical modeling for meaningful insights.
+        </li>
+        <li>
+          <h3>Web Development Bootcamp:</h3> 
+          Learn to build modern, responsive websites using HTML, CSS, JavaScript, and popular frameworks.
+        </li>
+        <li>
+          <h3>App Development Crash Course:</h3> 
+          Build mobile apps using cutting-edge tools like Flutter and React Native.
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Skill Sharing Platform. All rights reserved.</p>
+  </footer>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #e0f7fa;
+      /* background: #f1f8e9; */
+      background-image: url('https://www.transparenttextures.com/patterns/soft-pattern.png');
+      background-attachment: fixed;
+    }
+
+    header {
+      background: linear-gradient(90deg, #6a11cb, #2575fc);
+      color: #fff;
+      padding: 1rem 0;
+      text-align: center;
+      animation: fadeIn 2s ease;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #ffdd57;
+    }
+
+    main {
+      padding: 20px;
+      text-align: center;
+      animation: slideIn 1.5s ease;
+    }
+
+    .intro {
+      max-width: 600px;
+      margin: 0 auto;
+      background: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      background-image: url('https://www.transparenttextures.com/patterns/coffee-lattice.png');
+      background-size: cover;
+      animation: fadeInUp 2s ease-out;
+    }
+
+    .course-list-items {
+      text-align: left;
+      padding: 0;
+      list-style-type: none; /* Remove bullet points */
+    }
+
+    .course-list-items li {
+      margin: 10px 0;
+      font-size: 1rem;
+      color: #333;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background: transparent;
+      color: #333;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes bounceIn {
+        from {
+            transform: scale(0);
+        }
+       50% {
+            transform: scale(1.05);
+        }
+        to {
+            transform: scale(1);
+        }
+      }
+
+    @keyframes slideIn {
+      from { transform: translateY(20px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes textSlideIn {
+            from { opacity: 0; transform: translateX(-20px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+  </style>
+</body>
+</html>

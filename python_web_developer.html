@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphic Design Skills</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            animation: fadeIn 2s ease;
+        }
+
+        header {
+            background: linear-gradient(90deg, #6a11cb, #2575fc);
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+            animation: fadeIn 2s ease;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 20px;
+            animation: slideIn 1.5s ease;
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .content h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            animation: fadeIn 2s ease;
+        }
+
+        .content p {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #555;
+            animation: fadeIn 2s ease;
+        }
+
+        .content ul {
+            list-style-type: square;
+            padding-left: 20px;
+            animation: slideIn 1.5s ease;
+        }
+
+        .content ul li {
+            margin-bottom: 10px;
+            animation: fadeIn 2s ease;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: transparent; 
+            color: #333; /* Ensure text is visible */
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideIn {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Skill Sharing Platform</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="listings.html">Listings</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="add_skill.html">Add Skill</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="content">
+            <h2>Python Web developing</h2>
+            <p>It's is same like normal Web Developing but the twist is we cam make a web with less complex tools like Python, Django(a python framework), etc. .</p>
+            <ul>
+                <li>Frontend</li>
+                <li>Backend</li>
+                <li>Design</li>
+                <li>Graphic</li>
+                <li>Database</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Skill Sharing Platform. All rights reserved.</p>
+    </footer>
+</body>
+</html>
